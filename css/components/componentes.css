@@ -1,0 +1,79 @@
+#button {
+    display: flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    background-color: var(--e-global-color-49e20fd5);
+    color: var(--e-global-color-accent);
+    font-family: 'DM mono';
+    font-weight: 500;
+    font-size: 18px;
+    transition: all 0.3s ease-out;
+    border: solid 2px var(--e-global-color-49e20fd5);
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+#button:hover {
+    box-shadow: 0 0 0 3px rgba(67, 100, 250, 0.6);
+}
+
+#button2 {
+    display: flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+    width: fit-content;
+    color: var(--cod-gray-50);
+    font-family: 'DM mono';
+    font-weight: 500;
+    font-size: 18px;
+    transition: all 0.3s ease-out;
+    border: solid 2px var(--cod-gray-50);
+    cursor: pointer;
+}
+
+#button2:hover {
+    box-shadow: 0 0 0 3px rgba(241, 241, 241, 0.60);
+    background-color: var(--cod-gray-50);
+    color: var(--cod-gray-950);
+}
+
+.quadrados img {
+    height: 100px;
+    object-fit: cover;
+}
+
+.quadrados {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--e-global-color-e330047);
+    padding: 12px;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.quadrados:hover {
+background: #c0edfc;
+background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+color: var(--e-global-color-49e20fd5);
+
+}
+
+
+.procedimentos {
+    position: absolute;
+    bottom: -5px;
+    /* controla o quanto fica para fora da imagem */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    z-index: 10;
+    /* garante que fique sobre a imagem */
+}

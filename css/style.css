@@ -1,0 +1,6 @@
+@import './global/footer.css';
+@import './global/header.css';
+@import './global/global.css';
+@import './components/tipografia.css';
+@import './components/componentes.css';
+@import './pages/home.css';
